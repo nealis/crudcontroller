@@ -1,0 +1,23 @@
+{
+  "name": "nealis/crudcontroller",
+  "description": "",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nealis",
+      "email": "info@nealis.it"
+    }
+  ],
+  "require": {
+    "doctrine/dbal": "^2.5",
+    "nealis/result": "^1.0",
+    "nealis/params": "^1.0",
+    "nealis/entityrepository": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "CrudController\\": "src/"
+    }
+  }
+}
