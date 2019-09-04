@@ -1,6 +1,6 @@
 <?php
 
-namespace CrudController;
+namespace Nealis\CrudController;
 
 use Nealis\EntityRepository\Data\Filter\Rule;
 use Nealis\EntityRepository\Entity\EntityRepository;
